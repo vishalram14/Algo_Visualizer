@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sorting Visualizer</title>
+    <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div class="wrapper">
+        <div id="container"></div>
+        <div class="details" id="algo-details">
+
+        </div>
+    </div>
+    <div class="controls">
+        <form>
+            <input type="number" id="numOfBars">
+            <br>
+            <input type="submit" value="Generate" class="generate-button">
+        </form>
+        <div class="algo-container">
+            <p>Sorting Algorithms</p>
+            <div class="algorithms">
+                <div></div>
+                <div>
+                    <ul>
+                        <li><button class="algo-button" id="merge-sort">Merge Sort</button></li>
+                        <li><button class="algo-button" id="quick-sort">Quick Sort</button></li>
+                        <li><button class="algo-button" id="heap-sort">Heap Sort</button></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><button class="algo-button" id="insertion-sort">Insertion Sort</button></li>
+                        <li><button class="algo-button" id="selection-sort">Selection Sort</button></li>
+                        <li><button class="algo-button" id="bubble-sort">Bubble sort</button></li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <div class="button-div">
+            <button class="sort-button" id="sort-btn">Sort!</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 32.2rem;
+}
+
+#container {
+    display: flex;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    margin-top: 1rem;
+    background-color: #021947;
+    padding: 0.5rem;
+    height: 9.1rem;
+}
+
+#numOfBars {
+    width: 4rem;
+    margin: 1rem;
+}
+
+.button-div {
+    margin-top: 1rem;
+}
+
+.sort-button,
+.generate-button {
+    background-color: #1b9afa;
+    color: #021947;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.algo-container {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    text-align: center;
+}
+
+.algo-container p {
+    margin-top: -0.1rem;
+    color: #1b9afa;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.algorithms {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+
+.algorithms div ul {
+    list-style: none;
+}
+
+.algo-button {
+    margin: 0.2rem;
+    background-color: #021947;
+    color: #04d995;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sort-button {
+    margin-top: 2rem;
+}
+
+.details {
+    background-color: rgb(247, 207, 7);
+    width: 4rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    margin-top: -0.3rem;
+    position: absolute;
+    top: 0;
+    right: 15rem;
+    cursor: pointer;
+}
+
+.display-algo {
+    width: 5rem;
+    padding: 0.25rem;
+    height: auto;
+}
